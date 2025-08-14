@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -51,6 +52,28 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				// Status colors for tickets
+				status: {
+					open: 'hsl(var(--status-open))',
+					'open-foreground': 'hsl(var(--status-open-foreground))',
+					progress: 'hsl(var(--status-progress))',
+					'progress-foreground': 'hsl(var(--status-progress-foreground))',
+					resolved: 'hsl(var(--status-resolved))',
+					'resolved-foreground': 'hsl(var(--status-resolved-foreground))',
+					closed: 'hsl(var(--status-closed))',
+					'closed-foreground': 'hsl(var(--status-closed-foreground))'
+				},
+				// Priority colors
+				priority: {
+					low: 'hsl(var(--priority-low))',
+					'low-foreground': 'hsl(var(--priority-low-foreground))',
+					medium: 'hsl(var(--priority-medium))',
+					'medium-foreground': 'hsl(var(--priority-medium-foreground))',
+					high: 'hsl(var(--priority-high))',
+					'high-foreground': 'hsl(var(--priority-high-foreground))',
+					urgent: 'hsl(var(--priority-urgent))',
+					'urgent-foreground': 'hsl(var(--priority-urgent-foreground))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
