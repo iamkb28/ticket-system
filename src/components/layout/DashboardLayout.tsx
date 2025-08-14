@@ -119,7 +119,7 @@ export function DashboardLayout() {
             {/* Logo/Brand */}
             <div className="mb-6">
               <h1 className="text-xl font-bold text-primary">
-                TicketTamer
+                Ticket System
               </h1>
               <p className="text-sm text-muted-foreground">
                 Support System

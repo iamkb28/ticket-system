@@ -54,7 +54,7 @@ export function LoginPage() {
           <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 bg-primary rounded-full">
             <Ticket className="h-6 w-6 text-primary-foreground" />
           </div>
-          <h1 className="text-2xl font-bold text-foreground">TicketTamer</h1>
+          <h1 className="text-2xl font-bold text-foreground">Ticket System</h1>
           <p className="text-muted-foreground">Sign in to your support portal</p>
         </div>
 
@@ -152,7 +152,7 @@ export function LoginPage() {
         </Card>
 
         <div className="text-center text-sm text-muted-foreground">
-          <p>Need help? Contact support at help@tickettamer.com</p>
+          <p>Need help? Contact support at help@ticketsystem.com</p>
         </div>
       </div>
     </div>
